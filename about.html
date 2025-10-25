@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Aurora Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header">
+    <div class="header-container">
+      <a href="index.html" class="logo">Aurora <span>Studio</span></a>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#gallery">Our Work</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>About Aurora Studio</h1>
+      <p>We are passionate about crafting creative digital solutions that make a difference.</p>
+      <a href="#services" class="btn">Meet our Team</a>
+    </div>
+  </section>
+
+  <!-- ===================== OUR SERVICES ===================== -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p class="section-subtitle">We provide creative and modern digital solutions to grow your business.</p>
+
+      <div class="service-grid">
+        <!-- Web Development -->
+        <article class="service-card web">
+          <label for="popup-web">
+            <i class="fas fa-code"></i>
+            <h3>Web Development</h3>
+            <p>Responsive, fast, and user-friendly websites built with modern technologies.</p>
+          </label>
+        </article>
+
+        <!-- UI/UX Design -->
+        <article class="service-card uidesign">
+          <label for="popup-ui">
+            <i class="fas fa-pencil-ruler"></i>
+            <h3>UI / UX Design</h3>
+            <p>Beautiful and intuitive interfaces that give users the best experience.</p>
+          </label>
+        </article>
+
+        <!-- Brand Strategy -->
+        <article class="service-card brand">
+          <label for="popup-brand">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Brand Strategy</h3>
+            <p>We help you define a unique identity that connects with your audience.</p>
+          </label>
+        </article>
+      </div>
+    </div>
+
+    <!-- CSS-only Lightbox Popups -->
+    <input type="checkbox" id="popup-web" class="popup-toggle">
+    <div class="popup">
+      <label for="popup-web" class="popup-overlay"></label>
+      <div class="popup-content">
+        <img src="images/web.jpg" alt="Web Development">
+        <p>Web Development Services</p>
+        <label for="popup-web" class="popup-close">&times;</label>
+      </div>
+    </div>
+
+    <input type="checkbox" id="popup-ui" class="popup-toggle">
+    <div class="popup">
+      <label for="popup-ui" class="popup-overlay"></label>
+      <div class="popup-content">
+        <img src="images/uidesign.jpg" alt="UI / UX Design">
+        <p>UI / UX Design Services</p>
+        <label for="popup-ui" class="popup-close">&times;</label>
+      </div>
+    </div>
+
+    <input type="checkbox" id="popup-brand" class="popup-toggle">
+    <div class="popup">
+      <label for="popup-brand" class="popup-overlay"></label>
+      <div class="popup-content">
+        <img src="images/brand.jpg" alt="Brand Strategy">
+        <p>Brand Strategy Services</p>
+        <label for="popup-brand" class="popup-close">&times;</label>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== VISION / MISSION / VALUES ===================== -->
+<!-- Our Vision, Mission & Values -->
+<section class="values-section">
+  <div class="container">
+    <h2 class="section-title">Our Vision, Mission & Values</h2>
+    <p class="section-subtitle">We are committed to delivering excellence, creativity, and innovation in everything we do.</p>
+
+    <div class="values-grid">
+      <div class="value-card fade-up" style="animation-delay: 0.3s;">
+        <i class="fas fa-eye"></i>
+        <h3>Our Vision</h3>
+        <p>To become a leading creative agency that shapes brands with innovative solutions.</p>
+      </div>
+
+      <div class="value-card fade-up" style="animation-delay: 0.6s;">
+        <i class="fas fa-bullseye"></i>
+        <h3>Our Mission</h3>
+        <p>Delivering high-quality digital solutions that empower businesses to succeed online.</p>
+      </div>
+
+      <div class="value-card fade-up" style="animation-delay: 0.9s;">
+        <i class="fas fa-heart"></i>
+        <h3>Our Values</h3>
+        <p>Creativity, integrity, and dedication to provide the best experience for our clients.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- ===================== OUR WORK / GALLERY ===================== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <h2 class="section-title">Our Work</h2>
+      <p class="section-subtitle">A glimpse of some recent projects we’ve crafted with passion and creativity.</p>
+
+      <div class="gallery-grid">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-item">
+          <label for="gallery1">
+            <img src="images/gallery1.jpg" alt="Project 1">
+            <div class="overlay"><span>View Project</span></div>
+          </label>
+        </div>
+        <!-- Gallery Item 2 -->
+        <div class="gallery-item">
+          <label for="gallery2">
+            <img src="images/gallery2.jpg" alt="Project 2">
+            <div class="overlay"><span>View Project</span></div>
+          </label>
+        </div>
+        <!-- Gallery Item 3 -->
+        <div class="gallery-item">
+          <label for="gallery3">
+            <img src="images/gallery3.jpg" alt="Project 3">
+            <div class="overlay"><span>View Project</span></div>
+          </label>
+        </div>
+        <!-- Gallery Item 4 -->
+        <div class="gallery-item">
+          <label for="gallery4">
+            <img src="images/gallery4.jpg" alt="Project 4">
+            <div class="overlay"><span>View Project</span></div>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <!-- CSS-only Lightbox for Gallery -->
+    <input type="checkbox" id="gallery1" class="popup-toggle">
+    <div class="popup">
+      <label for="gallery1" class="popup-overlay"></label>
+      <div class="popup-content">
+        <img src="images/gallery1.jpg" alt="Project 1">
+        <p>Project 1</p>
+        <label for="gallery1" class="popup-close">&times;</label>
+      </div>
+    </div>
+
+    <input type="checkbox" id="gallery2" class="popup-toggle">
+    <div class="popup">
+      <label for="gallery2" class="popup-overlay"></label>
+      <div class="popup-content">
+        <img src="images/gallery2.jpg" alt="Project 2">
+        <p>Project 2</p>
+        <label for="gallery2" class="popup-close">&times;</label>
+      </div>
+    </div>
+
+    <input type="checkbox" id="gallery3" class="popup-toggle">
+    <div class="popup">
+      <label for="gallery3" class="popup-overlay"></label>
+      <div class="popup-content">
+        <img src="images/gallery3.jpg" alt="Project 3">
+        <p>Project 3</p>
+        <label for="gallery3" class="popup-close">&times;</label>
+      </div>
+    </div>
+
+    <input type="checkbox" id="gallery4" class="popup-toggle">
+    <div class="popup">
+      <label for="gallery4" class="popup-overlay"></label>
+      <div class="popup-content">
+        <img src="images/gallery4.jpg" alt="Project 4">
+        <p>Project 4</p>
+        <label for="gallery4" class="popup-close">&times;</label>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="credits">
+        &copy; 2025 Aurora Studio. All Rights Reserved.
+        <div class="designer">Designed by Yashi Vishnoi</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

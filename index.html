@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Studio | Creative Design Agency</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome for menu icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Skip to content (Accessibility) -->
+    <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="header">
+  <div class="container header-container">
+    <div class="logo">
+      <h1>Aurora <span>Studio</span></h1>
+    </div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Design that Inspires</h1>
+            <p>We create beautiful, functional websites that tell your brand story.</p>
+            <a href="about.html" class="btn">Learn More</a>
+        </div>
+    </section>
+
+ <section class="services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <p class="section-subtitle">We provide creative and modern digital solutions to grow your business.</p>
+
+    <div class="service-grid">
+      <article class="service-card web" data-img="images/web.jpg">
+        <i class="fas fa-code"></i>
+        <h3>Web Development</h3>
+        <p>Responsive, fast, and user-friendly websites built with modern technologies.</p>
+      </article>
+
+      <article class="service-card uidesign" data-img="images/uidesign.jpg">
+        <i class="fas fa-pencil-ruler"></i>
+        <h3>UI / UX Design</h3>
+        <p>Beautiful and intuitive interfaces that give users the best experience.</p>
+      </article>
+
+      <article class="service-card brand" data-img="images/brand.jpg">
+        <i class="fas fa-bullhorn"></i>
+        <h3>Brand Strategy</h3>
+        <p>We help you define a unique identity that connects with your audience.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox for Services -->
+<div class="lightbox" id="service-lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img" src="" alt="Expanded service image">
+</div>
+<!-- ========== Our Work / Gallery Section ========== -->
+<section class="gallery">
+  <div class="container">
+    <h2 class="section-title">Our Work</h2>
+    <p class="section-subtitle">
+      A glimpse of some recent projects we’ve crafted with passion and creativity.
+    </p>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/gallery1.jpg" alt="Project 1">
+        <div class="overlay"><span>View Project</span></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/gallery2.jpg" alt="Project 2">
+        <div class="overlay"><span>View Project</span></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/gallery3.jpg" alt="Project 3">
+        <div class="overlay"><span>View Project</span></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/gallery4.jpg" alt="Project 4">
+        <div class="overlay"><span>View Project</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox Popup -->
+<div class="lightbox" id="lightbox">
+  <span class="close">&times;</span>
+  <img class="lightbox-img" src="" alt="Expanded project image">
+</div>
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Aurora Studio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <p class="credits">Images from Unsplash | Icons by Font Awesome</p>
+
+        <!-- 👇 Your credit line -->
+        <p class="designer">Aurora Studio | Designed by <strong>Yashi Vishnoi</strong></p>
+    </footer>
+
+</body>
+</html>
