@@ -1,4 +1,4 @@
-# aurora-studio
+# aurora-studio website
 Overview-
 Aurora Studio is a responsive, interactive website built with HTML and CSS only. It includes Index, About, and Contact pages and showcases studio services, portfolio, team members, and contact info with a modern, user-friendly design.
 
